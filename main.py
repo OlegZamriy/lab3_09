@@ -1,12 +1,6 @@
-num1 = float(input("Введіть перше число: "))
-num2 = float(input("Введіть друге число: "))
+number = float(input("Введіть число: "))
+percent = float(input("Введіть відсоток: "))
 
-suma = num1 + num2
+result = (percent / 100) * number
 
-riznycya = num1 - num2
-
-dobutok = num1 * num2
-
-print(f"Сума чисел: {suma}")
-print(f"Різниця чисел: {riznycya}")
-print(f"Добуток чисел: {dobutok}")
+print(f"{percent}% від {number} дорівнює {result}")
