@@ -1,6 +1,6 @@
-number = float(input("Введіть число: "))
-percent = float(input("Введіть відсоток: "))
+width = float(input("Введіть ширину прямокутника: "))
 
-result = (percent / 100) * number
+height = float(input("Введіть висоту прямокутника: "))
 
-print(f"{percent}% від {number} дорівнює {result}")
+area = width * height
+print(f"Площа прямокутника з шириною {width} і висотою {height} дорівнює {area}")
